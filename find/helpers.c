@@ -51,7 +51,7 @@ void sort(int values[], int n)
     
     for (int i = 0; i < n; i++)
     {
-        min = values[i + 1];
+        min = values[i];
         for (int j = i + 1; j < n; j++)
         {
             if (values[j] < min)
